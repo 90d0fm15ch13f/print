@@ -5,5 +5,11 @@ User TODO
 	-chmod u+x
 	-add alias print='<path/to/printhelp.sh>' to .bashrc (optional)
 
+note that this script assumes you have shared your ssh keys with both imagine and the bbbox
+
+if you haven't refer to this website and be sure to set the authorized_keys file to 600
+
+http://www.linuxproblem.org/art_9.html
+
 dependencies
 	expect
