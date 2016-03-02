@@ -4,3 +4,6 @@ User TODO
 	-in print.sh add user names and passwords as required
 	-chmod u+x
 	-add alias print='<path/to/printhelp.sh>' to .bashrc (optional)
+
+dependencies
+	expect
