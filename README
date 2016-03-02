@@ -1,0 +1,6 @@
+this is a very simple and unsecure script to print a file to the bb136 printer
+User TODO
+	-in printhelp.sh add the path to scripts (or where you saved the print.sh file)
+	-in print.sh add user names and passwords as required
+	-chmod u+x
+	-add alias print='<path/to/printhelp.sh>' to .bashrc (optional)
