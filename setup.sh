@@ -1,8 +1,5 @@
 #!/bin/sh
 
-echo foo
-read foo
-
 sed s/"<localuname>"/"$USER"/ print.sh > print1.sh
 echo -e "Mines Username:"
 read uname
