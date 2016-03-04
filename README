@@ -1,6 +1,6 @@
 This is a very simple and unsecure script to print a file to the bb136 printer
 
-	I have added a setup script that should take care of local setup, not tested on OSX
+	I have added a setup script that should take care of local setup
 	To run ensure that you have the most recent version of expect
 	Then extract the zip to your scripts directory and run setup.sh
 
