@@ -11,5 +11,10 @@ Note that this script assumes you have shared your ssh keys with both imagine an
 
 	http://www.linuxproblem.org/art_9.html
 
+Usage
+ 	
+	Call the script, it is recommened to add an alias in your .bashrc or other file.
+	The first argument passed is the file to be printed and the second is the number to be printed out.
+
 Dependencies
 	-expect
