@@ -6,4 +6,6 @@ sed -i -e 's/<minesuname>/'"${uname}"'/g' -e s/"<localuname>"/"$USER"/ print.sh
 
 sed -i -e 's/<minesuname>/'"${uname}"'/g' actualprint.sh
 
+sed -i -e s:"<path2script>":"$PWD": printhelp.sh
+
 echo -e "Local setup complete.\n  Be sure that you have shared ssh keys with all the necessary computers.\n  It is also highly recommended that you add an alias"

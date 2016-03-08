@@ -8,11 +8,11 @@ else
 fi
 
 cp "${1}" ~/tmp/toprint
-"$PWD"/print.sh
+<path2script>/print.sh
 
 COUNTER=0
 while [ $COUNTER -lt $flag ]; do
-	"$PWD"/actualprint.sh
+	<path2script>/actualprint.sh
 	let COUNTER=COUNTER+1
 done
 echo -e "\n"
